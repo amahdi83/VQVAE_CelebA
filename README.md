@@ -77,11 +77,11 @@ Here are some sample outputs after training the model on the CelebA dataset:
 
 - **Original Images:**
 
-![Original Images](/Users/alimahdi/Desktop/Projects/computer_vision/genAI/vqvae/orig.png)
+![Original Images](images/orig.png)
 
 - **Reconstructed Images:**
 
-![Reconstructed Images](/Users/alimahdi/Desktop/Projects/computer_vision/genAI/vqvae/recon.png)
+![Reconstructed Images](images/recon.png)
 
 ---
 
