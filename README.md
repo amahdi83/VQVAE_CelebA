@@ -108,7 +108,7 @@ We use two types of vector quantization:
 
 ---
 
-## **Acknowledgements ** 🙌
+## **Acknowledgements 🙌**
 
 - This project uses the CelebA dataset, provided by MMLab.
 - The architecture is inspired by the paper "Neural Discrete Representation Learning".
