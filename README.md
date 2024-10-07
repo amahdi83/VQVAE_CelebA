@@ -98,7 +98,7 @@ We use two types of vector quantization:
 
 ## **Customization 🔧**
 
-- **Image Size:** Modify the img_size variable in the script to change the input image resolution.
+- **Image Size:** Modify the `img_size` variable in the script to change the input image resolution.
 - **Model Hyperparameters:** You can change the architecture's parameters, such as num_hiddens, embedding_dim, and num_residual_layers to experiment with different VQ-VAE configurations.
 - **Training Parameters:** Adjust n_epochs, learning_rate, and batch_size to tune the training process.
 
