@@ -76,9 +76,11 @@ To train the model, simply run the notebook.
 Here are some sample outputs after training the model on the CelebA dataset:
 
 - **Original Images:**
+
 ![Alt Text](/Users/alimahdi/Desktop/Projects/computer_vision/genAI/vqvae/orig.png)
 
 - **Reconstructed Images:**
+
 ![Alt Text](/Users/alimahdi/Desktop/Projects/computer_vision/genAI/vqvae/recon.png)
 
 ---
