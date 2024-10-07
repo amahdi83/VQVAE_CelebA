@@ -36,7 +36,8 @@ This project focuses on training a VQ-VAE on the CelebA dataset. VQ-VAEs are pow
 
 ```bash
 git clone https://github.com/your-username/vq-vae-celeba.git
-cd vq-vae-celeba```
+cd vq-vae-celeba
+```
 
 ### **Step 2: Set Up a Virtual Environment (optional but recommended)**
 
