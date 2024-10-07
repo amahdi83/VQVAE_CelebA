@@ -76,8 +76,10 @@ To train the model, simply run the notebook.
 Here are some sample outputs after training the model on the CelebA dataset:
 
 - **Original Images:**
+![Alt Text](/Users/alimahdi/Desktop/Projects/computer_vision/genAI/vqvae/orig.png)
 
 - **Reconstructed Images:**
+![Alt Text](/Users/alimahdi/Desktop/Projects/computer_vision/genAI/vqvae/recon.png)
 
 ---
 
@@ -99,10 +101,8 @@ We use two types of vector quantization:
 ## **Customization 🔧**
 
 - **Image Size:** Modify the `img_size` variable in the script to change the input image resolution.
-- **Model Hyperparameters:** You can change the architecture's parameters, such as num_hiddens, embedding_dim, and num_residual_layers to experiment with different VQ-VAE configurations.
-- **Training Parameters:** Adjust n_epochs, learning_rate, and batch_size to tune the training process.
-
-For more advanced customization, edit the respective model classes or the training loop in train.py.
+- **Model Hyperparameters:** You can change the architecture's parameters, such as `num_hiddens`, `embedding_dim`, and `num_residual_layers` to experiment with different VQ-VAE configurations.
+- **Training Parameters:** Adjust `n_epochs`, `learning_rate`, and `batch_size` to tune the training process.
 
 ---
 
