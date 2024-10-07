@@ -75,9 +75,9 @@ To train the model, simply run the notebook.
 ## **Results 📊**
 Here are some sample outputs after training the model on the CelebA dataset:
 
-*Reconstructed Images:*
+- **Original Images:**
 
-*Generated Images:*
+- **Reconstructed Images:**
 
 ---
 
@@ -85,22 +85,22 @@ Here are some sample outputs after training the model on the CelebA dataset:
 
 The model consists of:
 
-*Encoder:* Maps input images to discrete latent codes.
-*Decoder:* Reconstructs the input images from the discrete latent codes.
-*Vector Quantizer:* Maps latent vectors to discrete embeddings.
+- **Encoder:** Maps input images to discrete latent codes.
+- **Decoder:** Reconstructs the input images from the discrete latent codes.
+- **Vector Quantizer:** Maps latent vectors to discrete embeddings.
 
 We use two types of vector quantization:
 
-*Vector Quantizer:* Basic version of VQ.
-*Vector Quantizer EMA:* Uses exponential moving average to update embedding vectors.
+- **Vector Quantizer:** Basic version of VQ.
+- **Vector Quantizer EMA:** Uses exponential moving average to update embedding vectors.
 
 ---
 
 ## **Customization 🔧**
 
-*Image Size:* Modify the img_size variable in the script to change the input image resolution.
-*Model Hyperparameters:* You can change the architecture's parameters, such as num_hiddens, embedding_dim, and num_residual_layers to experiment with different VQ-VAE configurations.
-*Training Parameters:* Adjust n_epochs, learning_rate, and batch_size to tune the training process.
+- **Image Size:** Modify the img_size variable in the script to change the input image resolution.
+- **Model Hyperparameters:** You can change the architecture's parameters, such as num_hiddens, embedding_dim, and num_residual_layers to experiment with different VQ-VAE configurations.
+- **Training Parameters:** Adjust n_epochs, learning_rate, and batch_size to tune the training process.
 
 For more advanced customization, edit the respective model classes or the training loop in train.py.
 
@@ -108,6 +108,6 @@ For more advanced customization, edit the respective model classes or the traini
 
 ## **Acknowledgements 🙌**
 
-This project uses the CelebA dataset, provided by MMLab.
-The architecture is inspired by the paper "Neural Discrete Representation Learning".
-Thanks to PyTorch for providing an excellent deep learning framework.
+- This project uses the CelebA dataset, provided by MMLab.
+- The architecture is inspired by the paper "Neural Discrete Representation Learning".
+- Thanks to PyTorch for providing an excellent deep learning framework.
